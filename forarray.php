@@ -16,10 +16,9 @@ $array = array (
 	'Атлант расправил плечи'
 );
 
-$length = count($array);
-echo ('<ol>');
-for ($i=0; $i < $length; $i++) {
 
+echo ('<ol>');
+for ($i=0; $i < count($array); $i++) {
 	echo ('<li>'.$array[$i].'</li>');
 }
 echo ('</ol>');
