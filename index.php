@@ -5,6 +5,9 @@
 	<title>Document</title>
 </head>
 <body>
-	<a href="forarray.php">PHP - 2. Основы PHP. Массивы</a>
+	<ul>
+	<li><a href="forarray.php">PHP - 2. Основы PHP. Массивы</a></li>
+	<li><a href="asocialarray.php">PHP - 3. Основы PHP. Ассоциативные массивы</a></li>
+	</ul>
 </body>
 </html>
