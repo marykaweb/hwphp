@@ -17,8 +17,9 @@ $array = array (
 );
 
 $length = count($array);
+echo ('<ol>');
+for ($i=0; $i < $length; $i++) {
 
-for ($i=0; $i <= $length; $i++) {
-	echo $array[$i];
-	echo ('<br/>');
+	echo ('<li>'.$array[$i].'</li>');
 }
+echo ('</ol>');
